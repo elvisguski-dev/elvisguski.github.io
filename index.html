@@ -12,7 +12,7 @@
 
   <meta
     name="description"
-    content="Portfólio profissional de Elvis Guski - Técnico em Informática e estudante de Ciência da Computação."
+    content="Portfólio profissional de Elvis Guski, Técnico em Informática e estudante de Ciência da Computação."
   >
 
   <title>Elvis Guski | Desenvolvedor</title>
@@ -21,25 +21,36 @@
 
 </head>
 
+
 <body>
+
 
 <header>
 
   <nav class="navbar">
 
-    <div class="logo">
+    <a href="#" class="logo">
       EG<span>.</span>
-    </div>
+    </a>
+
 
     <div class="nav-links">
 
-      <a href="#sobre">Sobre</a>
+      <a href="#sobre">
+        Sobre
+      </a>
 
-      <a href="#projetos">Projetos</a>
+      <a href="#projetos">
+        Projetos
+      </a>
 
-      <a href="#habilidades">Habilidades</a>
+      <a href="#habilidades">
+        Tecnologias
+      </a>
 
-      <a href="#contato">Contato</a>
+      <a href="#contato">
+        Contato
+      </a>
 
     </div>
 
@@ -48,65 +59,103 @@
 </header>
 
 
+
 <main>
+
 
   <!-- APRESENTAÇÃO -->
 
   <section class="hero">
 
-    <div class="hero-text">
+    <div class="hero-content">
 
-      <p class="intro">
-        Olá, eu sou
-      </p>
 
-      <h1>
-        Elvis Guski
-      </h1>
+      <div class="hero-text">
 
-      <h2>
-        Técnico em Informática & Estudante de Ciência da Computação
-      </h2>
+        <p class="intro">
+          Olá, eu sou
+        </p>
 
-      <p>
-        Desenvolvimento de software, aplicações web,
-        automação e criação de soluções para problemas reais.
-      </p>
+        <h1>
+          Elvis Guski
+        </h1>
 
-      <div class="hero-buttons">
+        <h2>
+          Técnico em Informática
+          <span>|</span>
+          Estudante de Ciência da Computação
+        </h2>
 
-        <a
-          href="#projetos"
-          class="btn-primary"
-        >
-          Ver projetos
-        </a>
 
-        <a
-          href="https://github.com/SEUUSUARIO"
-          target="_blank"
-          class="btn-secondary"
-        >
-          GitHub
-        </a>
+        <p class="hero-description">
+
+          Desenvolvimento de software,
+          aplicações web, automação e criação
+          de soluções para problemas reais.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+          <a
+            href="#projetos"
+            class="btn-primary"
+          >
+            Ver projetos
+          </a>
+
+
+          <a
+            href="https://github.com/elvisguski-dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-secondary"
+          >
+            GitHub
+          </a>
+
+        </div>
 
       </div>
+
+
+
+      <div class="hero-photo">
+
+        <div class="photo-border">
+
+          <img
+            src="perfil.jpg"
+            alt="Foto profissional de Elvis Guski"
+          >
+
+        </div>
+
+      </div>
+
 
     </div>
 
   </section>
 
 
-  <!-- SOBRE -->
+
+  <!-- SOBRE MIM -->
 
   <section
     id="sobre"
     class="section"
   >
 
+    <div class="section-label">
+      SOBRE
+    </div>
+
     <h2 class="section-title">
       Sobre mim
     </h2>
+
 
     <p class="section-text">
 
@@ -114,15 +163,16 @@
       5º semestre de Ciência da Computação.
 
       Tenho interesse em desenvolvimento de software,
-      desenvolvimento web, automação e tecnologia.
+      aplicações web, automação e tecnologia.
 
-      Busco oportunidades para aplicar meus conhecimentos,
-      evoluir profissionalmente e desenvolver soluções
-      que resolvam problemas reais.
+      Busco oportunidades para aplicar meus conhecimentos
+      em projetos reais, ampliar minha experiência
+      profissional e evoluir como desenvolvedor.
 
     </p>
 
   </section>
+
 
 
   <!-- PROJETOS -->
@@ -132,6 +182,10 @@
     class="section"
   >
 
+    <div class="section-label">
+      PORTFÓLIO
+    </div>
+
     <h2 class="section-title">
       Projetos
     </h2>
@@ -140,23 +194,38 @@
     <div class="projects-grid">
 
 
-      <!-- PROJETO 1 -->
+      <!-- EVENT PHOTO SHARE -->
 
       <article class="project-card">
 
-        <div class="project-number">
-          01
+        <div class="project-top">
+
+          <div class="project-number">
+            01
+          </div>
+
+          <div class="project-status">
+            Projeto real
+          </div>
+
         </div>
+
 
         <h3>
           Event Photo Share
         </h3>
 
+
         <p>
 
-          Aplicação web desenvolvida para permitir que
-          convidados de eventos enviem fotos diretamente
-          para um álbum compartilhado através de QR Code.
+          Aplicação web para compartilhamento
+          colaborativo de fotos em eventos através
+          de QR Code.
+
+          Os convidados podem selecionar e enviar
+          múltiplas imagens diretamente para um álbum
+          armazenado no Google Drive, sem necessidade
+          de instalar aplicativos.
 
         </p>
 
@@ -165,13 +234,15 @@
 
           <span>JavaScript</span>
 
-          <span>HTML</span>
+          <span>HTML5</span>
 
-          <span>CSS</span>
+          <span>CSS3</span>
 
           <span>Google Apps Script</span>
 
           <span>Google Drive</span>
+
+          <span>QR Code</span>
 
         </div>
 
@@ -179,10 +250,10 @@
         <div class="project-links">
 
           <a
-            href="LINK_DO_REPOSITORIO"
-            target="_blank"
+            href="#"
+            class="project-link disabled"
           >
-            Ver código
+            Código em breve
           </a>
 
         </div>
@@ -190,17 +261,24 @@
       </article>
 
 
-      <!-- PROJETO FUTURO -->
 
-      <article class="project-card coming-soon">
+      <!-- FUTURO PROJETO -->
 
-        <div class="project-number">
-          02
+      <article class="project-card future-project">
+
+        <div class="project-top">
+
+          <div class="project-number">
+            02
+          </div>
+
         </div>
+
 
         <h3>
           Próximo projeto
         </h3>
+
 
         <p>
 
@@ -217,39 +295,63 @@
   </section>
 
 
-  <!-- HABILIDADES -->
+
+  <!-- TECNOLOGIAS -->
 
   <section
     id="habilidades"
     class="section"
   >
 
+    <div class="section-label">
+      STACK
+    </div>
+
     <h2 class="section-title">
-      Tecnologias
+      Tecnologias e conhecimentos
     </h2>
 
 
     <div class="skills">
 
-      <div>HTML5</div>
 
-      <div>CSS3</div>
+      <div class="skill">
+        HTML5
+      </div>
 
-      <div>JavaScript</div>
+      <div class="skill">
+        CSS3
+      </div>
 
-      <div>Git</div>
+      <div class="skill">
+        JavaScript
+      </div>
 
-      <div>GitHub</div>
+      <div class="skill">
+        Git
+      </div>
 
-      <div>Google Apps Script</div>
+      <div class="skill">
+        GitHub
+      </div>
 
-      <div>Suporte Técnico</div>
+      <div class="skill">
+        Google Apps Script
+      </div>
 
-      <div>Hardware</div>
+      <div class="skill">
+        Suporte Técnico
+      </div>
+
+      <div class="skill">
+        Hardware
+      </div>
+
 
     </div>
 
   </section>
+
 
 
   <!-- CONTATO -->
@@ -259,47 +361,62 @@
     class="section contact"
   >
 
+    <div class="section-label">
+      CONTATO
+    </div>
+
     <h2 class="section-title">
       Vamos conversar?
     </h2>
 
+
     <p>
 
-      Estou aberto a oportunidades na área de tecnologia,
-      desenvolvimento e suporte.
+      Estou aberto a oportunidades em tecnologia,
+      desenvolvimento de software, desenvolvimento web
+      e suporte técnico.
 
     </p>
 
 
     <div class="contact-links">
 
+
       <a
-        href="https://github.com/SEUUSUARIO"
+        href="https://github.com/elvisguski-dev"
         target="_blank"
+        rel="noopener noreferrer"
       >
         GitHub
       </a>
 
 
-      <a
-        href="https://www.linkedin.com/in/SEULINKEDIN"
-        target="_blank"
-      >
+      <!--
+      QUANDO TIVER LINKEDIN,
+      SUBSTITUA O # PELO LINK
+      -->
+
+      <a href="#">
         LinkedIn
       </a>
 
 
-      <a
-        href="mailto:SEUEMAIL@gmail.com"
-      >
+      <!--
+      TROQUE PELO SEU E-MAIL
+      -->
+
+      <a href="mailto:SEUEMAIL@gmail.com">
         E-mail
       </a>
+
 
     </div>
 
   </section>
 
+
 </main>
+
 
 
 <footer>
@@ -308,7 +425,12 @@
     © 2026 Elvis Guski
   </p>
 
+  <p class="footer-small">
+    Desenvolvido por Elvis Guski
+  </p>
+
 </footer>
+
 
 </body>
 
